@@ -9,6 +9,7 @@ $jurusan = new Jurusan($DB_HOST, $DB_USERNAME, $DB_PASSWORD, $DB_NAME);
 
 $jurusan->open();
 
+$data = null;
 $data .= '<div class="card-header text-center">
 <h3 class="my-0">Create data Jurusan</h3>
 </div>
