@@ -9,6 +9,7 @@ $lowongan = new Lowongan($DB_HOST, $DB_USERNAME, $DB_PASSWORD, $DB_NAME);
 
 $lowongan->open();
 
+$data = null;
 $data .= '<div class="card-header text-center">
 <h3 class="my-0">Create data Lowongan</h3>
 </div>
